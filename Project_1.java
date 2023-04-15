@@ -211,6 +211,19 @@ class Project_1
                 
             }
         };                                                                                            //Override load_data() function to insert data into table into joint table.Logic applied to join emp data and designation data and calculate salary
+        System.out.println();
+        System.out.println("*********************Employee table***************************");
+        System.out.println();
+        employee_table.display_table();
+        System.out.println();
+        System.out.println("*********************Design table***************************");
+        System.out.println();
+        Design_table.display_table();
+        System.out.println();
+        System.out.println();
+        System.out.println("*********************Joint table***************************");
+        System.out.println();
+
 
         if(args.length==0)
         joint_table.display_table();
